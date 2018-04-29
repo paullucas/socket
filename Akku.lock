@@ -1,0 +1,6 @@
+#!r6rs
+(import (akku format lockfile))
+(projects
+ ((name "libc")
+  (location (git "git@github.com:paullucas/libc.git"))
+  (revision "61592b820f858855a4a001e143b5fa97737af4bb")))
